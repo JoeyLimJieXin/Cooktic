@@ -1,0 +1,117 @@
+.caption {
+    text-align: center;
+    margin: 10px 30px;
+    
+}
+
+.caption p {
+    font-size: 1.5rem;
+    font-family: 'BillieEilish';
+}
+
+.details-box {
+    width: 1600px;
+    padding: 10px 60px 20px 60px;
+    margin: 30px 40px;
+    background: var(--main-color);
+    border-radius: 50px;
+}
+
+.details-box .title h1 {
+    font-family: 'BillieEilish';
+    font-weight: 200;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.details-box .box {
+    border-bottom: 1px solid black;
+}
+
+.box h1, h2 {
+    font-family: 'BillieEilish';
+}
+
+.tablebox {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.visiable-title {
+    display: flex;
+}
+
+.left-icon {
+    margin-right: 20px;
+}
+
+.visiable-title label {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: 'BillieEilish';
+    font-size: 1.8rem;
+}
+
+.box input {
+    display: none;
+}
+
+.tablebox img {
+    width: 85px;
+    height: 80px;
+}
+
+.hidden-text {
+    max-height: 1px;
+    overflow: hidden;
+    border-radius: 4px;
+    line-height: 1.4;
+    position: relative;
+    top: -100%;
+    opacity: 0.5;
+    transition: all .3s ease;
+}
+
+.tablebox input:checked ~ .hidden-text {
+    max-height: 300px;
+    padding-bottom: 25px;
+    background: var(--main-color);
+    opacity: 1;
+    top: 0;
+}
+
+.tablebox .hidden-text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 15px 15px 0;
+    color: var(--deep-text);
+}
+
+.arrow-icon {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+.arrow-icon img {
+    height: 30px;
+    width: auto;
+}
+
+.btn-shopNow {
+    text-align: center;
+}
+
+.box-left {
+    border-right: 1px solid black;
+}
+
+.box-top {
+    border-top: 1px solid black;
+}
